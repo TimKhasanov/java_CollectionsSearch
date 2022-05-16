@@ -16,7 +16,8 @@ public class CoolNumbers {
                 for (String s1 : numbers) {
                     for (String s2 : numbers) {
                         for (String s3 : numbers) {
-                            String number = String.format("%s%d%d%d%s%s%s", s1, region1, region1, region1, s2, s3, region);
+                            String number = String.format("%s%d%d%d%s%s%s", s1,
+                                    region1, region1, region1, s2, s3, region);
                             list.add(number);
                         }
                     }
